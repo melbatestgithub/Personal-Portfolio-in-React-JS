@@ -1,0 +1,54 @@
+@media (max-width: 890px) {
+    .conta {
+        flex-direction: column;
+        height: "100%";
+    }
+    .img_sec{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
+@media (max-width:510px){
+    .about-txt{
+        font-size: 1rem;
+        text-align: center;
+    }
+    .about-cont{
+        max-width: "400px";
+    }
+}
+
+.work-card {
+    background-color: #1a202c;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .work-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  
+  .work-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .work-links {
+    margin-top: 10px;
+  }
+  
+  .work-link {
+    color: #61dafb;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+  
+  .work-link:hover {
+    text-decoration: underline;
+  }
+  
