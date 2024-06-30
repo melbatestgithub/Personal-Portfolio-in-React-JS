@@ -10,7 +10,6 @@ const Home = () => {
       <div className="max-w-5xl mx-auto px-6 md:px-8 py-24">
         <div className="flex flex-col md:flex-row items-center">
           {/* Left Column (Profile Image and Introduction) */}
-         
           {/* Right Column (Text Content) */}
           <div className="md:w-1/2 md:pl-12">
             <h1 className="text-4xl md:text-5xl font-bold text-[#ccd6f6] mb-6">
@@ -26,7 +25,7 @@ const Home = () => {
               I've been fascinated by the endless possibilities that coding
               offers.
             </p>
-            <div className="flex gap-4">
+            <div className="flex gap-4" id=''>
               <button className="text-white bg-sky-700 border-2 border-transparent px-6 py-3 flex items-center hover:bg-sky-600 transition duration-300">
                 View Work
                 <HiArrowNarrowRight className="ml-2" />
