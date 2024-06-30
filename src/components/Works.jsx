@@ -8,10 +8,10 @@ const Works = ({ title, imageUrl, liveDemoUrl, sourceCodeUrl, style }) => {
       <img style={{ width: '100%', height: 'auto', borderRadius: '8px' }} src={imageUrl} alt={title} />
       <p style={{ fontSize: '1.1rem', fontWeight: 'bold', color: '#ffffff',marginTop:"15px" }}>{title}</p>
       <div style={{ marginTop: '20px' }} className='flex gap-6'>
-        <a className='bg-sky-700  px-2 py-3 rounded-md' style={{ fontWeight:"bold",color:"white", textDecoration: 'none', marginRight: '10px' }} href={liveDemoUrl} target="_blank" rel="noopener noreferrer">
+        <a className='bg-blue-900  px-2 py-3 rounded-md' style={{ fontWeight:"bold",color:"white", textDecoration: 'none', marginRight: '10px' }} href={liveDemoUrl} target="_blank" rel="noopener noreferrer">
           Live Demo
         </a>
-        <a className='bg-sky-700 text-white px-2 py-3 rounded-md' style={{  fontWeight:"bold",color: 'white', textDecoration: 'none', marginRight: '10px' }} href={sourceCodeUrl} target="_blank" rel="noopener noreferrer">
+        <a className='bg-blue-900 text-white px-2 py-3 rounded-md' style={{  fontWeight:"bold",color: 'white', textDecoration: 'none', marginRight: '10px' }} href={sourceCodeUrl} target="_blank" rel="noopener noreferrer">
           Source Code
         </a>
       </div>
