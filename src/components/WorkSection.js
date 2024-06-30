@@ -5,6 +5,7 @@ import portfolio from '../assets/portfolio.jpg';
 import ItLanding from '../assets/download.png';
 import gerami from '../assets/gerami.jpg';
 import shop from '../assets/shop.png';
+import restaurant from '../assets/restaurant.png';
 import Works from './Works';
 
 const WorkSection = () => {
@@ -32,17 +33,17 @@ const WorkSection = () => {
             className="custom-work-card"
           />
           <Works
-            title="Project Two"
+            title="Eccomerce platform with striype payment"
             imageUrl={shop}
             liveDemoUrl="https://shop-ka2z7jih7-melakus-projects.vercel.app/"
             sourceCodeUrl="https://github.com/melbatestgithub/shoppingApp"
             className="custom-work-card"
           />
           <Works
-            title="Project Two"
-            imageUrl={portfolio}
-            liveDemoUrl="https://example.com/live-demo3"
-            sourceCodeUrl="https://github.com/example/repo3"
+            title="Restaurant table booking"
+            imageUrl={restaurant}
+            liveDemoUrl="https://retaurant-menu.vercel.app/"
+            sourceCodeUrl="https://github.com/melbatestgithub/retaurantMenu"
             className="custom-work-card"
           />
           <Works
