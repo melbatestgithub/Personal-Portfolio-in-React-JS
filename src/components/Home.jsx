@@ -25,11 +25,13 @@ const Home = () => {
               I've been fascinated by the endless possibilities that coding
               offers.
             </p>
-            <div className="flex gap-4" id=''>
+            <div className="flex gap-4" >
+              <a href="#work">
               <button className="text-white bg-sky-700 border-2 border-transparent px-6 py-3 flex items-center hover:bg-sky-600 transition duration-300">
                 View Work
                 <HiArrowNarrowRight className="ml-2" />
               </button>
+              </a>
               <a
                 href={resumePdf}
                 download="Melaku_Zeleke_Resume.pdf"

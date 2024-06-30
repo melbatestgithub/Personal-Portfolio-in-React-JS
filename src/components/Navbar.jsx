@@ -20,29 +20,30 @@ const Navbar = () => {
       {/* Desktop Menu */}
       <ul className="hidden md:flex gap-2">
         <li>
-          <Link to="home" smooth={true} duration={500} className="nav-link">
+          <a href=''>
             Home
-          </Link>
+          </a>
         </li>
         <li>
-          <Link to="about" smooth={true} duration={500} className="nav-link">
+          <a href="#about">
             About
-          </Link>
+          </a>
+     
         </li>
         <li>
-          <Link to="skills" smooth={true} duration={500} className="nav-link">
+          <a href="#skill" >
             Skills
-          </Link>
+          </a>
         </li>
         <li>
-          <Link to="work" smooth={true} duration={500} className="nav-link">
+          <a href="#work" >
             Work
-          </Link>
+          </a>
         </li>
         <li>
-          <Link to="contact" smooth={true} duration={500} className="nav-link">
+          <a href="#contact" >
             Contact
-          </Link>
+          </a>
         </li>
       </ul>
 
@@ -56,29 +57,42 @@ const Navbar = () => {
       {/* Mobile Menu */}
       <ul className={`absolute top-16 right-6 md:hidden ${nav ? 'flex flex-col' : 'hidden'}`}>
         <li>
+          <a href='#home'>
           <Link onClick={handleClick} to="home" smooth={true} duration={500} className="nav-link">
             Home
           </Link>
+          </a>
         </li>
         <li>
-          <Link onClick={handleClick} to="about" smooth={true} duration={500} className="nav-link">
+           
+          <a href="#about">
             About
-          </Link>
+          </a>
+         
         </li>
         <li>
+          <a href='#skill'>
           <Link onClick={handleClick} to="skills" smooth={true} duration={500} className="nav-link">
             Skills
           </Link>
+          </a>
+         
         </li>
         <li>
+          
           <Link onClick={handleClick} to="work" smooth={true} duration={500} className="nav-link">
             Work
           </Link>
+        
+          
         </li>
         <li>
+          <a href='#contact'>
           <Link onClick={handleClick} to="contact" smooth={true} duration={500} className="nav-link">
             Contact
           </Link>
+          </a>
+          
         </li>
       </ul>
     </div>

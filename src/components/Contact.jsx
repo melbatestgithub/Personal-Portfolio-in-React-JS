@@ -113,6 +113,7 @@ const Contact = () => {
 
   return (
     <div
+    id='contact'
       name="contact"
       className="w-full h-full bg-[#0a192f] flex justify-center items-center py-4"
     >

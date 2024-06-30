@@ -17,7 +17,7 @@ const skills = [
 
 const Skills = () => {
   return (
-    <div className="w-full min-h-screen bg-[#00072D] text-gray-300">
+    <div id='skill' className="w-full min-h-screen bg-[#00072D] text-gray-300">
       <div className="max-w-[1000px] mx-auto flex flex-col justify-center w-full h-full py-8">
         <div className="text-center pb-8">
           <p className="text-4xl font-bold inline border-b-4 border-cyan-600">My Skills</p>

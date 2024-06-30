@@ -9,7 +9,7 @@ import Works from './Works';
 
 const WorkSection = () => {
   return (
-    <div name="work" className="w-full min-h-screen bg-[#112240] text-gray-300 p-4 shadow-md">
+    <div id="work"  className="w-full min-h-screen bg-[#112240] text-gray-300 p-4 shadow-md">
       <div className="max-w-[1000px] mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 border-cyan-600">Work</p>

@@ -4,7 +4,7 @@ import "./style.css"; // Import your custom styles here
 
 const About = () => {
   return (
-    <div name="about" className=" flex flex-col md:flex-row  bg-[#112240] text-gray-300 transition duration-300 ease-in-out delay-150  ">
+    <div  id="about"  className=" flex flex-col md:flex-row  bg-[#112240] text-gray-300 transition duration-300 ease-in-out delay-150  ">
       {/* Left Section (Profile Image and Introduction) */}
       <div className="w-full md:w-1/2 p-8 flex flex-col items-center justify-center">
         <div className="mb-6">
