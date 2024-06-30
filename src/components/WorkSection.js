@@ -4,6 +4,7 @@ import React from 'react';
 import portfolio from '../assets/portfolio.jpg';
 import ItLanding from '../assets/download.png';
 import gerami from '../assets/gerami.jpg';
+import shop from '../assets/shop.png';
 import Works from './Works';
 
 const WorkSection = () => {
@@ -32,9 +33,9 @@ const WorkSection = () => {
           />
           <Works
             title="Project Two"
-            imageUrl={portfolio}
-            liveDemoUrl="https://example.com/live-demo3"
-            sourceCodeUrl="https://github.com/example/repo3"
+            imageUrl={shop}
+            liveDemoUrl="https://shop-ka2z7jih7-melakus-projects.vercel.app/"
+            sourceCodeUrl="https://github.com/melbatestgithub/shoppingApp"
             className="custom-work-card"
           />
           <Works

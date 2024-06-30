@@ -4,7 +4,7 @@ import React from 'react';
 
 const Works = ({ title, imageUrl, liveDemoUrl, sourceCodeUrl, style }) => {
   return (
-    <div style={{ backgroundColor: ' #658ccc', borderRadius: '8px', padding: '20px', margin: '10px', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)', ...style }}>
+    <div style={{ backgroundColor: ' #3D619B', borderRadius: '8px', padding: '20px', margin: '10px', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)', ...style }}>
       <img style={{ width: '100%', height: 'auto', borderRadius: '8px' }} src={imageUrl} alt={title} />
       <p style={{ fontSize: '1.1rem', fontWeight: 'bold', color: '#ffffff',marginTop:"15px" }}>{title}</p>
       <div style={{ marginTop: '20px' }} className='flex gap-6'>
