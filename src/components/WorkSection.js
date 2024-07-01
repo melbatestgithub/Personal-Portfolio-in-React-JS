@@ -46,20 +46,6 @@ const WorkSection = () => {
             sourceCodeUrl="https://github.com/melbatestgithub/retaurantMenu"
             className="custom-work-card"
           />
-          <Works
-            title="Project Two"
-            imageUrl={portfolio}
-            liveDemoUrl="https://example.com/live-demo3"
-            sourceCodeUrl="https://github.com/example/repo3"
-            className="custom-work-card"
-          />
-          <Works
-            title="Project Two"
-            imageUrl={portfolio}
-            liveDemoUrl="https://example.com/live-demo3"
-            sourceCodeUrl="https://github.com/example/repo3"
-            className="custom-work-card"
-          />
         </div>
       </div>
     </div>
