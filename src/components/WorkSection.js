@@ -29,7 +29,7 @@ const WorkSection = () => {
             title="Google gemini chat API"
             imageUrl={gerami}
             liveDemoUrl="https://clone-gemini.vercel.app/"
-            sourceCodeUrl="https://github.com/example/repo2"
+            sourceCodeUrl="https://github.com/melbatestgithub/gemini-api"
             className="custom-work-card"
           />
           <Works
