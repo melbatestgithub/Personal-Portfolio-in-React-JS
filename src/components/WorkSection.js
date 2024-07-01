@@ -35,7 +35,7 @@ const WorkSection = () => {
           <Works
             title="Eccomerce platform with stripe payment"
             imageUrl={shop}
-            liveDemoUrl="https://shop-ka2z7jih7-melakus-projects.vercel.app/"
+            liveDemoUrl="https://shopping-app-six-amber.vercel.app/"
             sourceCodeUrl="https://github.com/melbatestgithub/shoppingApp"
             className="custom-work-card"
           />
