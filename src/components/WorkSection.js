@@ -33,7 +33,7 @@ const WorkSection = () => {
             className="custom-work-card"
           />
           <Works
-            title="Eccomerce platform with striype payment"
+            title="Eccomerce platform with stripe payment"
             imageUrl={shop}
             liveDemoUrl="https://shop-ka2z7jih7-melakus-projects.vercel.app/"
             sourceCodeUrl="https://github.com/melbatestgithub/shoppingApp"
