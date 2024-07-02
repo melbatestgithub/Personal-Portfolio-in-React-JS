@@ -42,7 +42,11 @@ const About = () => {
           </div>
           <div className="flex items-center">
             <p className="font-bold w-24">Email:</p>
-            <p>melakuzeleke443</p>
+            <p>melakuzeleke443@gmail.com</p>
+          </div>
+          <div className="flex items-center">
+            <p className="font-bold w-24">Github:</p>
+            <p>https://github.com/melbatestgithub</p>
           </div>
           <div className="flex items-center">
             <p className="font-bold w-24">Degree:</p>
