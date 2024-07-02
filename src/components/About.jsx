@@ -46,7 +46,7 @@ const About = () => {
           </div>
           <div className="flex items-center">
             <p className="font-bold w-24">Github:</p>
-            <a>https://github.com/melbatestgithub</a>
+            <a href="https://github.com/melbatestgithub">https://github.com/melbatestgithub</a>
           </div>
           <div className="flex items-center">
             <p className="font-bold w-24">Degree:</p>
