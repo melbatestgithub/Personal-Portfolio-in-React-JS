@@ -50,7 +50,7 @@ const WorkSection = () => {
             className="custom-work-card"
           />
           <Works
-            title="Restaurant table booking"
+            title="A mobile-friendly tool to backtest your discretionary options strategy"
             imageUrl={backtest}
             liveDemoUrl="https://optionscrack.in/"
             sourceCodeUrl="https://github.com/melbatestgithub/retaurantMenu"
