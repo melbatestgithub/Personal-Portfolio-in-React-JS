@@ -43,9 +43,9 @@ const WorkSection = () => {
             className="custom-work-card"
           />
           <Works
-            title="Garden Platform"
+            title=" The Garden Platform"
             imageUrl={garden}
-            liveDemoUrl="https://retaurant-menu.vercel.app/"
+            liveDemoUrl="https://thegarden.gg/"
             sourceCodeUrl="https://github.com/melbatestgithub/retaurantMenu"
             className="custom-work-card"
           />
