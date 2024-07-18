@@ -46,21 +46,21 @@ const WorkSection = () => {
             title=" The Garden Platform"
             imageUrl={garden}
             liveDemoUrl="https://thegarden.gg/"
-            sourceCodeUrl="https://github.com/melbatestgithub/retaurantMenu"
+            sourceCodeUrl="https://github.com/melbatestgithub/"
             className="custom-work-card"
           />
           <Works
             title="A mobile-friendly tool to backtest your discretionary options strategy"
             imageUrl={backtest}
             liveDemoUrl="https://optionscrack.in/"
-            sourceCodeUrl="https://github.com/melbatestgithub/retaurantMenu"
+            sourceCodeUrl="https://github.com/melbatestgithub"
             className="custom-work-card"
           />
           <Works
             title="Integram chatting app"
             imageUrl={integram}
             liveDemoUrl="https://tgig.vercel.app/"
-            sourceCodeUrl="https://github.com/melbatestgithub/retaurantMenu"
+            sourceCodeUrl="https://github.com/melbatestgithub"
             className="custom-work-card"
           />
         </div>
