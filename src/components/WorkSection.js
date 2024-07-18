@@ -57,9 +57,9 @@ const WorkSection = () => {
             className="custom-work-card"
           />
           <Works
-            title="Restaurant table booking"
+            title="Integram chatting app"
             imageUrl={integram}
-            liveDemoUrl="https://retaurant-menu.vercel.app/"
+            liveDemoUrl="https://tgig.vercel.app/"
             sourceCodeUrl="https://github.com/melbatestgithub/retaurantMenu"
             className="custom-work-card"
           />
