@@ -6,6 +6,7 @@ import ItLanding from '../assets/download.png';
 import gerami from '../assets/gerami.jpg';
 import shop from '../assets/shop.png';
 import restaurant from '../assets/restaurant.png';
+import backtest from '../assets/backtest.png';
 import Works from './Works';
 
 const WorkSection = () => {
@@ -37,6 +38,20 @@ const WorkSection = () => {
             imageUrl={shop}
             liveDemoUrl="https://shopping-app-six-amber.vercel.app/"
             sourceCodeUrl="https://github.com/melbatestgithub/shoppingApp"
+            className="custom-work-card"
+          />
+          <Works
+            title="Restaurant table booking"
+            imageUrl={restaurant}
+            liveDemoUrl="https://retaurant-menu.vercel.app/"
+            sourceCodeUrl="https://github.com/melbatestgithub/retaurantMenu"
+            className="custom-work-card"
+          />
+          <Works
+            title="Restaurant table booking"
+            imageUrl={backtest}
+            liveDemoUrl="https://retaurant-menu.vercel.app/"
+            sourceCodeUrl="https://github.com/melbatestgithub/retaurantMenu"
             className="custom-work-card"
           />
           <Works
