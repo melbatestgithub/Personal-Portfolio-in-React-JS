@@ -7,6 +7,8 @@ import gerami from '../assets/gerami.jpg';
 import shop from '../assets/shop.png';
 import restaurant from '../assets/restaurant.png';
 import backtest from '../assets/backtest.jpg';
+import integram from '../assets/integram.jpg';
+import garden from '../assets/garden.jpg';
 import Works from './Works';
 
 const WorkSection = () => {
@@ -42,7 +44,7 @@ const WorkSection = () => {
           />
           <Works
             title="Restaurant table booking"
-            imageUrl={restaurant}
+            imageUrl={garden}
             liveDemoUrl="https://retaurant-menu.vercel.app/"
             sourceCodeUrl="https://github.com/melbatestgithub/retaurantMenu"
             className="custom-work-card"
@@ -50,13 +52,13 @@ const WorkSection = () => {
           <Works
             title="Restaurant table booking"
             imageUrl={backtest}
-            liveDemoUrl="https://retaurant-menu.vercel.app/"
+            liveDemoUrl="https://optionscrack.in/"
             sourceCodeUrl="https://github.com/melbatestgithub/retaurantMenu"
             className="custom-work-card"
           />
           <Works
             title="Restaurant table booking"
-            imageUrl={restaurant}
+            imageUrl={integram}
             liveDemoUrl="https://retaurant-menu.vercel.app/"
             sourceCodeUrl="https://github.com/melbatestgithub/retaurantMenu"
             className="custom-work-card"
