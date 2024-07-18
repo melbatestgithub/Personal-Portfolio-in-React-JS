@@ -6,7 +6,7 @@ import ItLanding from '../assets/download.png';
 import gerami from '../assets/gerami.jpg';
 import shop from '../assets/shop.png';
 import restaurant from '../assets/restaurant.png';
-import backtest from '../assets/backtest.png';
+import backtest from '../assets/backtest.jpg';
 import Works from './Works';
 
 const WorkSection = () => {
