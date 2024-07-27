@@ -16,10 +16,10 @@ const Home = () => {
               Melaku Zeleke
             </h1>
             <p className="text-2xl md:text-3xl font-bold text-[#ccd6f6] mb-6">
-              Full Stack Developer
+            Junior Software Developer
             </p>
             <p className="text-lg text-[#8892b0] mb-8">
-              Hi there! I'm a passionate full-stack developer with experience
+              Hi there! I'm a passionate Software developer with experience
               in building web applications using modern technologies. My journey
               in software development began several years ago, and since then,
               I've been fascinated by the endless possibilities that coding
