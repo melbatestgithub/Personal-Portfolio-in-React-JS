@@ -23,7 +23,7 @@ const Home = () => {
               in building web applications using modern technologies. My journey
               in software development began several years ago, and since then,
               I've been fascinated by the endless possibilities that coding
-              offers.
+              offers.~
             </p>
             <div className="flex gap-4" >
               <a href="#work">

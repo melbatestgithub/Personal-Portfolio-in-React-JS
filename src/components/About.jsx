@@ -11,13 +11,16 @@ const About = () => {
           <h2 className="text-4xl font-bold mb-4">About Me</h2>
           <div className="w-12 h-1 bg-cyan-600 mb-4"></div>
           <p className="text-lg text-center">
-            I am a seasoned Full Stack Developer over 2+ Years of experience in
-            designing, developing, and maintaining web applications. Equipped with
-            a strong foundation in both front-end and back-end technologies, adept at
-            collaborating with cross-functional teams to deliver innovative solutions
-            that meet business objectives. Seeking to leverage my expertise to
-            contribute effectively to a dynamic development team and drive
-            continuous improvement in the software development process.
+          I am a seasoned Software Developer with over 1+ years of experience in
+ designing, developing, and maintaining web applications. Equipped with
+ a strong foundation in both front-end and back-end technologies, I am
+ adept at collaborating with cross-functional teams to deliver innovative
+ solutions that meet business objectives. Additionally, I possess skills in
+ computer network and system administration, which enhance my ability to
+ manage and optimize the infrastructure supporting applications. I am
+ seeking to leverage my expertise to contribute effectively to a dynamic
+ development team and drive continuous improvement in the software
+ development process.
           </p>
         </div>
         <div className="w-60 h-60 md:w-80 md:h-80 rounded-full overflow-hidden shadow-lg">
