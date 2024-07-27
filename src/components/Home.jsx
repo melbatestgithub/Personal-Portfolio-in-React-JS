@@ -1,7 +1,7 @@
 import React from 'react';
 import { HiArrowNarrowRight } from 'react-icons/hi';
 import profileImage from '../assets/profile.jpg'; // Assuming you have a profile image
-import resumePdf from '../assets/Software Developer.pdf'; // Adjust the path to your resume file
+import resumePdf from '../assets/Melaku Zeleke Resume.pdf'; // Adjust the path to your resume file
 
 const Home = () => {
   return (
@@ -16,14 +16,14 @@ const Home = () => {
               Melaku Zeleke
             </h1>
             <p className="text-2xl md:text-3xl font-bold text-[#ccd6f6] mb-6">
-            Junior Software Developer
+              Full Stack Developer
             </p>
             <p className="text-lg text-[#8892b0] mb-8">
-              Hi there! I'm a passionate Software developer with experience
+              Hi there! I'm a passionate full-stack developer with experience
               in building web applications using modern technologies. My journey
               in software development began several years ago, and since then,
               I've been fascinated by the endless possibilities that coding
-              offers.~
+              offers.
             </p>
             <div className="flex gap-4" >
               <a href="#work">
