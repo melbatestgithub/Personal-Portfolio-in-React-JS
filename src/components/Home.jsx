@@ -33,7 +33,7 @@ const Home = () => {
               </button>
               </a>
               <a
-                href={resumePdf}
+                // href={resumePdf}
                 // download="Melaku_Zeleke_Resume.pdf"
                 className="text-white bg-sky-700 border-2 border-transparent px-6 py-3 flex items-center hover:bg-sky-600 transition duration-300"
               >
