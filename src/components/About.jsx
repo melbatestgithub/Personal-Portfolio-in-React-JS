@@ -11,7 +11,7 @@ const About = () => {
           <h2 className="text-4xl font-bold mb-4">About Me</h2>
           <div className="w-12 h-1 bg-cyan-600 mb-4"></div>
           <p className="text-lg text-center">
-            I am a seasoned Full Stack Developer over 1+ Years of experience in
+            I am a seasoned Full Stack Developer with experience in
             designing, developing, and maintaining web applications. Equipped with
             a strong foundation in both front-end and back-end technologies, adept at
             collaborating with cross-functional teams to deliver innovative solutions
