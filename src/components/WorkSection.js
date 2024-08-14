@@ -9,6 +9,8 @@ import restaurant from '../assets/restaurant.png';
 import backtest from '../assets/backtest.jpg';
 import integram from '../assets/integram.jpg';
 import garden from '../assets/garden.jpg';
+import bookRenting from '../assets/bookRenting.jpg';
+import image from '../assets/image.png';
 import Works from './Works';
 
 const WorkSection = () => {
@@ -33,6 +35,13 @@ const WorkSection = () => {
             imageUrl={gerami}
             liveDemoUrl="https://clone-gemini.vercel.app/"
             sourceCodeUrl="https://github.com/melbatestgithub/gemini-api"
+            className="custom-work-card"
+          />
+          <Works
+            title="Book Renting App"
+            imageUrl={bookRenting}
+            liveDemoUrl="https://book-renting.vercel.app/"
+            sourceCodeUrl="https://github.com/melbatestgithub/book_renting"
             className="custom-work-card"
           />
           <Works
@@ -61,6 +70,13 @@ const WorkSection = () => {
             imageUrl={integram}
             liveDemoUrl="https://tgig.vercel.app/"
             sourceCodeUrl="https://github.com/melbatestgithub"
+            className="custom-work-card"
+          />
+          <Works
+            title="ETSY landing page"
+            imageUrl={image}
+            liveDemoUrl="https://etsy-landing-page.vercel.app/"
+            sourceCodeUrl="https://github.com/melbatestgithub/Etsy_landing_page"
             className="custom-work-card"
           />
         </div>
