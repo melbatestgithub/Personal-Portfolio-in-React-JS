@@ -13,6 +13,7 @@ import bookRenting from '../assets/bookRenting.png';
 import image from '../assets/image.png';
 import Works from './Works';
 
+
 const WorkSection = () => {
   return (
     <div id="work"  className="w-full min-h-screen bg-[#112240] text-gray-300 p-4 shadow-md">
