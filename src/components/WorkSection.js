@@ -9,7 +9,7 @@ import restaurant from '../assets/restaurant.png';
 import backtest from '../assets/backtest.jpg';
 import integram from '../assets/integram.jpg';
 import garden from '../assets/garden.jpg';
-import bookRenting from '../assets/bookRenting.jpg';
+import bookRenting from '../assets/bookRenting.png';
 import image from '../assets/image.png';
 import Works from './Works';
 
