@@ -1,7 +1,7 @@
 import React from 'react';
 import { HiArrowNarrowRight } from 'react-icons/hi';
 import profileImage from '../assets/profile.jpg'; // Assuming you have a profile image
-import resumePdf from '../assets/Melaku Zeleke Resume.pdf'; // Adjust the path to your resume file
+import resumePdf from '../assets/Melaku_Zeleke_CV.pdf'; // Adjust the path to your resume file
 
 const Home = () => {
   return (
