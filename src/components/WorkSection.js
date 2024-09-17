@@ -11,6 +11,7 @@ import integram from '../assets/integram.jpg';
 import garden from '../assets/garden.jpg';
 import bookRenting from '../assets/bookRenting.png';
 import image from '../assets/image.png';
+import elearning from '../assets/elearning.jpg';
 import Works from './Works';
 
 
@@ -78,6 +79,13 @@ const WorkSection = () => {
             imageUrl={image}
             liveDemoUrl="https://etsy-landing-page.vercel.app/"
             sourceCodeUrl="https://github.com/melbatestgithub/Etsy_landing_page"
+            className="custom-work-card"
+          />
+          <Works
+            title="E Learning platform "
+            imageUrl={elearning}
+            liveDemoUrl="https://e-learning-user.vercel.app/"
+            sourceCodeUrl="https://github.com/melbatestgithub/E_Learning_Platform"
             className="custom-work-card"
           />
         </div>
