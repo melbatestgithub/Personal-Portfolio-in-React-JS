@@ -1,5 +1,3 @@
-// WorkSection.js
-
 import React from 'react';
 import portfolio from '../assets/portfolio.jpg';
 import ItLanding from '../assets/download.png';
@@ -13,7 +11,8 @@ import bookRenting from '../assets/bookRenting.png';
 import image from '../assets/image.png';
 import elearning from '../assets/elearning.jpg';
 import Works from './Works';
-
+// Import your video file
+import balemuya  from '../assets/balemuya_vid.mp4';
 
 const WorkSection = () => {
   return (
@@ -23,7 +22,16 @@ const WorkSection = () => {
           <p className="text-4xl font-bold inline border-b-4 border-cyan-600">Work</p>
           <p className="py-6"> Check out some of my recent projects</p>
         </div>
-        
+
+        {/* Insert your video here */}
+        <div className="mb-8">
+          <p>Admin Panel for Hello balemuya mobile app</p>
+          <video controls className="w-full h-auto rounded-lg shadow-lg">
+            <source src={balemuya} type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+
         <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
           <Works
             title="IT Issue Tracking System"
@@ -54,7 +62,7 @@ const WorkSection = () => {
             className="custom-work-card"
           />
           <Works
-            title=" The Garden Platform"
+            title="The Garden Platform"
             imageUrl={garden}
             liveDemoUrl="https://thegarden.gg/"
             sourceCodeUrl="https://github.com/melbatestgithub/"
@@ -82,7 +90,7 @@ const WorkSection = () => {
             className="custom-work-card"
           />
           <Works
-            title="E Learning platform "
+            title="E Learning platform"
             imageUrl={elearning}
             liveDemoUrl="https://e-learning-user.vercel.app/"
             sourceCodeUrl="https://github.com/melbatestgithub/E_Learning_Platform"
