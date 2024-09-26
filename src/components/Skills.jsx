@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaAws, FaCss3Alt, FaGithub, FaHtml5, FaReact, FaNodeJs, FaDatabase } from 'react-icons/fa';
-import { SiTailwindcss, SiMongodb, SiNextdotjs, SiMysql, SiPostgresql,SiLaravel } from 'react-icons/si';
+import { SiTailwindcss, SiMongodb, SiNextdotjs, SiMysql, SiPostgresql,SiLaravel,SiFlutter } from 'react-icons/si';
 
 const skills = [
   { name: 'AWS', icon: <FaAws className="w-16 h-16 text-yellow-400" /> },
@@ -11,6 +11,7 @@ const skills = [
   { name: 'Tailwind CSS', icon: <SiTailwindcss className="w-16 h-16 text-teal-400" /> },
   { name: 'MongoDB', icon: <SiMongodb className="w-16 h-16 text-green-500" /> },
   { name: 'Next.js', icon: <SiNextdotjs className="w-16 h-16 text-white" /> },
+  { name: 'Flutter', icon: <SiFlutter className="w-16 h-16 text-white" /> },
   { name: 'MySQL', icon: <SiMysql className="w-16 h-16 text-blue-600" /> },
   { name: 'PostgreSQL', icon: <SiPostgresql className="w-16 h-16 text-blue-500" /> },
  
