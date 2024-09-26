@@ -1,12 +1,13 @@
 import React from 'react';
 import { FaAws, FaCss3Alt, FaGithub, FaHtml5, FaReact, FaNodeJs, FaDatabase } from 'react-icons/fa';
-import { SiTailwindcss, SiMongodb, SiNextdotjs, SiMysql, SiPostgresql } from 'react-icons/si';
+import { SiTailwindcss, SiMongodb, SiNextdotjs, SiMysql, SiPostgresql,SiLaravel } from 'react-icons/si';
 
 const skills = [
   { name: 'AWS', icon: <FaAws className="w-16 h-16 text-yellow-400" /> },
   { name: 'GitHub', icon: <FaGithub className="w-16 h-16 text-gray-500" /> },
   { name: 'React', icon: <FaReact className="w-16 h-16 text-cyan-400" /> },
   { name: 'Node.js', icon: <FaNodeJs className="w-16 h-16 text-green-500" /> },
+  { name: 'Laravel', icon: <SiLaravel className="w-16 h-16 text-green-500" /> },
   { name: 'Tailwind CSS', icon: <SiTailwindcss className="w-16 h-16 text-teal-400" /> },
   { name: 'MongoDB', icon: <SiMongodb className="w-16 h-16 text-green-500" /> },
   { name: 'Next.js', icon: <SiNextdotjs className="w-16 h-16 text-white" /> },
