@@ -9,90 +9,58 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className="fixed w-full bg-[#0a192f] text-gray-300 shadow-md py-3 px-6 md:px-12 flex justify-between items-center z-50">
+    <div className="fixed w-full bg-[#0a192f] text-gray-300 shadow-lg py-4 px-6 md:px-12 flex justify-between items-center z-50 transition-all duration-500 ease-in-out">
       <div className="flex items-center">
-        <Link to="/" className="flex items-center">
-          <BsFillPersonLinesFill size={24} className="mr-2" />
-          <span className="text-xl font-bold">Melaku Zeleke</span>
+        <Link to="/" className="flex items-center text-white hover:text-[#64ffda] transition duration-300 ease-in-out">
+          <BsFillPersonLinesFill size={30} className="mr-2" />
+          <span className="text-2xl font-bold">M Z</span>
         </Link>
       </div>
 
       {/* Desktop Menu */}
-      <ul className="hidden md:flex gap-2">
-        <li>
-          <a href=''>
-            Home
-          </a>
+      <ul className="hidden md:flex space-x-8 text-lg">
+        <li className="hover:text-[#64ffda] transition duration-300 ease-in-out">
+          <a href="#home">Home</a>
         </li>
-        <li>
-          <a href="#about">
-            About
-          </a>
-     
+        <li className="hover:text-[#64ffda] transition duration-300 ease-in-out">
+          <a href="#about">About</a>
         </li>
-        <li>
-          <a href="#skill" >
-            Skills
-          </a>
+        <li className="hover:text-[#64ffda] transition duration-300 ease-in-out">
+          <a href="#skill">Skills</a>
         </li>
-        <li>
-          <a href="#work" >
-            Work
-          </a>
+        <li className="hover:text-[#64ffda] transition duration-300 ease-in-out">
+          <a href="#work">Work</a>
         </li>
-        <li>
-          <a href="#contact" >
-            Contact
-          </a>
+        <li className="hover:text-[#64ffda] transition duration-300 ease-in-out">
+          <a href="#contact">Contact</a>
         </li>
       </ul>
 
-      {/* Hamburger Menu */}
-      <div className="md:hidden">
-        <div onClick={handleClick} className="cursor-pointer">
-          {nav ? <FaTimes size={24} /> : <FaBars size={24} />}
-        </div>
+      {/* Hamburger Icon */}
+      <div className="md:hidden z-10" onClick={handleClick}>
+        {nav ? <FaTimes size={30} /> : <FaBars size={30} />}
       </div>
 
       {/* Mobile Menu */}
-      <ul className={`absolute top-16 right-6 md:hidden ${nav ? 'flex flex-col' : 'hidden'}`}>
-        <li>
-          <a href='#home'>
-          <Link onClick={handleClick} to="home" smooth={true} duration={500} className="nav-link">
-            Home
-          </Link>
-          </a>
+      <ul
+        className={`fixed top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center transition-transform duration-500 ease-in-out transform ${
+          nav ? 'translate-x-0' : '-translate-x-full'
+        }`}
+      >
+        <li className="py-6 text-4xl hover:text-[#64ffda]">
+          <a href="#home" onClick={handleClick}>Home</a>
         </li>
-        <li>
-           
-          <a href="#about">
-            About
-          </a>
-         
+        <li className="py-6 text-4xl hover:text-[#64ffda]">
+          <a href="#about" onClick={handleClick}>About</a>
         </li>
-        <li>
-          <a href='#skill'>
-          <Link onClick={handleClick} to="skills" smooth={true} duration={500} className="nav-link">
-            Skills
-          </Link>
-          </a>
-         
+        <li className="py-6 text-4xl hover:text-[#64ffda]">
+          <a href="#skill" onClick={handleClick}>Skills</a>
         </li>
-        <li>
-          
-          <Link onClick={handleClick} to="work" smooth={true} duration={500} className="nav-link">
-            Work
-          </Link>
-        
-          
+        <li className="py-6 text-4xl hover:text-[#64ffda]">
+          <a href="#work" onClick={handleClick}>Work</a>
         </li>
-        <li>
-          <a href='#contact'>
-          <Link onClick={handleClick} to="contact" smooth={true} duration={500} className="nav-link">
-            Contact
-          </Link>
-          </a>
-          
+        <li className="py-6 text-4xl hover:text-[#64ffda]">
+          <a href="#contact" onClick={handleClick}>Contact</a>
         </li>
       </ul>
     </div>

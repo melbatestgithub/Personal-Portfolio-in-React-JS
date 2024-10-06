@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { motion } from 'framer-motion'; // For animations
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -15,10 +16,8 @@ const Contact = () => {
 
   const handleChange = (e) => {
     const { name, value } = e.target;
-
     let newErrors = { ...errors };
 
-    // Validate name (only letters and spaces)
     if (name === 'name') {
       if (!/^[A-Za-z\s]*$/.test(value)) {
         newErrors.name = 'Name can only contain letters and spaces';
@@ -29,7 +28,6 @@ const Contact = () => {
       }
     }
 
-    // Validate email
     if (name === 'email') {
       if (!value) {
         newErrors.email = 'Email is required';
@@ -40,7 +38,6 @@ const Contact = () => {
       }
     }
 
-    // Validate message (only letters, numbers, spaces, and punctuation)
     if (name === 'message') {
       if (!/^[A-Za-z0-9\s.,!?]*$/.test(value)) {
         newErrors.message = 'Message can only contain letters, numbers, spaces, and punctuation';
@@ -77,7 +74,6 @@ const Contact = () => {
     }
 
     setErrors(newErrors);
-
     return !Object.values(newErrors).some(error => error !== '');
   };
 
@@ -112,56 +108,64 @@ const Contact = () => {
   };
 
   return (
-    <div
-    id='contact'
-      name="contact"
-      className="w-full h-full bg-[#0a192f] flex justify-center items-center py-4"
-    >
-      <form
-        method="POST"
-        action="https://getform.io/f/a2b6c28f-cd76-4d45-8fe6-63df429ebae7"
-        className="flex flex-col max-w-[600px] w-full bg-[#112240] p-8 rounded-lg shadow-lg"
+    <div id='contact' name="contact" className="w-full min-h-screen bg-[#0a192f] flex justify-center items-center p-8">
+      <motion.form
+        initial={{ opacity: 0, y: 50 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.8 }}
         onSubmit={handleSubmit}
+        className="flex flex-col max-w-[600px] w-full bg-[#112240] p-10 rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300"
       >
-        <div className="pb-6">
-          <h1 className="font-bold text-4xl text-gray-300 text-center">
-            Contact Me!
-          </h1>
-        </div>
-        <input
+        <motion.div 
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 0.3 }}
+          className="pb-6"
+        >
+          <h1 className="text-4xl font-bold text-gray-300 text-center">Contact Me!</h1>
+        </motion.div>
+        
+        <motion.input 
+          whileFocus={{ scale: 1.05, borderColor: 'rgba(255, 255, 255, 0.6)' }}
           type="text"
-          className={`bg-[#ccd6f6] p-3 border-none rounded-md text-black mb-4 ${errors.name ? 'border-2 border-red-500' : ''}`}
+          className={`bg-[#ccd6f6] p-3 rounded-md text-black mb-4 transition-all duration-300 focus:outline-none ${errors.name ? 'border-2 border-red-500' : 'border-none'}`}
           placeholder="Client Name"
           name="name"
           value={formData.name}
           onChange={handleChange}
         />
         {errors.name && <p className="text-red-500 text-sm mb-4">{errors.name}</p>}
-        <input
+        
+        <motion.input 
+          whileFocus={{ scale: 1.05, borderColor: 'rgba(255, 255, 255, 0.6)' }}
           type="email"
-          className={`p-3 bg-[#ccd6f6] border-none rounded-md text-black mb-4 ${errors.email ? 'border-2 border-red-500' : ''}`}
+          className={`p-3 bg-[#ccd6f6] rounded-md text-black mb-4 transition-all duration-300 focus:outline-none ${errors.email ? 'border-2 border-red-500' : 'border-none'}`}
           placeholder="Email"
           name="email"
           value={formData.email}
           onChange={handleChange}
         />
         {errors.email && <p className="text-red-500 text-sm mb-4">{errors.email}</p>}
-        <textarea
-          className={`bg-[#ccd6f6] border-none p-3 rounded-md text-black mb-4 ${errors.message ? 'border-2 border-red-500' : ''}`}
+        
+        <motion.textarea 
+          whileFocus={{ scale: 1.05, borderColor: 'rgba(255, 255, 255, 0.6)' }}
+          className={`bg-[#ccd6f6] p-3 rounded-md text-black mb-4 transition-all duration-300 focus:outline-none ${errors.message ? 'border-2 border-red-500' : 'border-none'}`}
           placeholder="Message"
-          rows={10}
+          rows={6}
           name="message"
           value={formData.message}
           onChange={handleChange}
-        ></textarea>
+        ></motion.textarea>
         {errors.message && <p className="text-red-500 text-sm mb-4">{errors.message}</p>}
-        <button
+        
+        <motion.button
+          whileHover={{ scale: 1.1, backgroundColor: '#00b4d8' }}
+          className="text-gray-300 bg-sky-700 font-bold rounded-md py-3 mt-3 transition duration-300"
           type="submit"
-          className="text-gray-300 px-8 rounded-md hover:bg-cyan-700 border-none py-3 mt-3 bg-sky-700 font-bold mx-auto transition duration-300"
         >
           Submit
-        </button>
-      </form>
+        </motion.button>
+      </motion.form>
     </div>
   );
 };

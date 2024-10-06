@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaAws, FaCss3Alt, FaGithub, FaHtml5, FaReact, FaNodeJs, FaDatabase } from 'react-icons/fa';
-import { SiTailwindcss, SiMongodb, SiNextdotjs, SiMysql, SiPostgresql,SiLaravel,SiFlutter } from 'react-icons/si';
+import { SiTailwindcss, SiMongodb, SiNextdotjs, SiMysql, SiPostgresql, SiLaravel, SiFlutter } from 'react-icons/si';
 
 const skills = [
   { name: 'AWS', icon: <FaAws className="w-16 h-16 text-yellow-400" /> },
@@ -14,32 +14,33 @@ const skills = [
   { name: 'Flutter', icon: <SiFlutter className="w-16 h-16 text-white" /> },
   { name: 'MySQL', icon: <SiMysql className="w-16 h-16 text-blue-600" /> },
   { name: 'PostgreSQL', icon: <SiPostgresql className="w-16 h-16 text-blue-500" /> },
- 
 ];
 
 const Skills = () => {
   return (
-    <div id='skill' className="w-full min-h-screen bg-[#00072D] text-gray-300">
-      <div className="max-w-[1000px] mx-auto flex flex-col justify-center w-full h-full py-8">
+    <div id='skill' className="w-full min-h-screen bg-[#00072D] text-gray-300 py-12 animate-fadeIn">
+      <div className="max-w-[1000px] mx-auto flex flex-col justify-center w-full h-full">
         <div className="text-center pb-8">
-          <p className="text-4xl font-bold inline border-b-4 border-cyan-600">My Skills</p>
+          <p className="text-4xl font-bold inline border-b-4 border-cyan-600 animate-bounce">
+            My Skills
+          </p>
         </div>
         <div className="w-full grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8 text-center py-8 px-4">
           {skills.map((skill, index) => (
             <div
               key={index}
-              className="shadow-md hover:scale-110 transition-transform duration-300 p-6 rounded-lg bg-[#112240]"
+              className="shadow-md hover:scale-110 transition-transform duration-300 p-6 rounded-lg bg-[#112240] transform hover:rotate-3 animate-slideUp"
             >
               <div className="flex items-center justify-center mb-4">
                 {skill.icon}
               </div>
-              <p className="mt-2 font-bold">{skill.name}</p>
+              <p className="mt-2 font-bold text-gray-100 animate-fadeIn">{skill.name}</p>
             </div>
           ))}
         </div>
       </div>
     </div>
   );
-}
+};
 
 export default Skills;
