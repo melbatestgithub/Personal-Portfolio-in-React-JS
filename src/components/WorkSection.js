@@ -23,14 +23,7 @@ const WorkSection = () => {
           <p className="py-6">Check out some of my recent projects</p>
         </div>
 
-        {/* Video Section */}
-        <div className="mb-8">
-          <p className="text-xl text-white font-semibold mb-4">Admin Panel for Hello Balemuya Mobile App</p>
-          <video controls className="w-full h-auto rounded-lg shadow-lg">
-            <source src={balemuya} type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
-        </div>
+      
 
         {/* Projects Section */}
         <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
