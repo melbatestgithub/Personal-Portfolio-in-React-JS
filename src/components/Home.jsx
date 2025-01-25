@@ -38,7 +38,7 @@ const Home = () => {
               variants={textVariants}
               transition={{ duration: 0.5, ease: 'easeOut', delay: 0.1 }}
             >
-              Full Stack Developer
+              Software Developer
             </motion.p>
             <motion.p 
               className="text-lg text-[#8892b0] mb-8 leading-relaxed"
@@ -47,7 +47,7 @@ const Home = () => {
               variants={textVariants}
               transition={{ duration: 0.5, ease: 'easeOut', delay: 0.2 }}
             >
-              Hi there! I'm a passionate full-stack developer with experience in building modern web applications. My journey in software development has fueled my fascination with coding, enabling me to transform creative ideas into scalable solutions.
+              Hi there! I'm a passionate  Software developer with experience in building modern web applications. My journey in software development has fueled my fascination with coding, enabling me to transform creative ideas into scalable solutions.
             </motion.p>
 
             {/* Buttons with hover and arrow animation */}
