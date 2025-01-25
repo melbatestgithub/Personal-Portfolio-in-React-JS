@@ -27,7 +27,7 @@ const About = () => {
             transition={{ duration: 1 }}
           ></motion.div>
           <p className="text-lg text-center">
-            I am a seasoned Full Stack Developer with experience in designing, developing, and maintaining web applications. Equipped with a strong foundation in both front-end and back-end technologies, adept at collaborating with cross-functional teams to deliver innovative solutions that meet business objectives. Seeking to leverage my expertise to contribute effectively to a dynamic development team and drive continuous improvement in the software development process.
+            I am a seasoned Software Developer with experience in designing, developing, and maintaining web applications. Equipped with a strong foundation in both front-end and back-end technologies, adept at collaborating with cross-functional teams to deliver innovative solutions that meet business objectives. Seeking to leverage my expertise to contribute effectively to a dynamic development team and drive continuous improvement in the software development process.
           </p>
         </motion.div>
         <motion.div
